@@ -8,7 +8,8 @@ The spec proper can be found at <https://wicg.github.io/cq-usecases/>.
 
 ## Found a bug? Want to contribute something?
 If you found a problem with the document, no matter how small,
-please [file a bug](https://github.com/WICG/cq-usecases/issues).
+please [file a bug](https://github.com/WICG/cq-usecases/issues)
+or get in touch with us on [Slack](https://containerqueries.slack.com)
 
 See also our [contributor's guide](CONTRIBUTING.md).
 
