@@ -24,8 +24,6 @@ img { max-width: 100%; }
 
 <div boilerplate="status">
 This is an unofficial draft. It is provided for discussion only and may change at any moment. Its publication here does not imply endorsement of its contents by W3C. Don’t cite this document other than as work in progress.
-
-If you wish to make comments regarding this document, please send them to <a href="mailto:public-wicg@w3.org">public-wicg@w3.org</a> (<a href="mailto:public-wicg-request@w3.org?subject=subscribe">subscribe</a>, <a href="https://lists.w3.org/Archives/Public/public-wicg/">archives</a>). All comments are welcome.
 </div>
 
 <h2 id="intro">Introduction</h2>
