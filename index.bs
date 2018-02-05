@@ -5,13 +5,10 @@ Status: ED
 ED: https://github.com/WICG/cq-usecases
 Shortname: cq-usecases
 Level: 1
-Editor: Mat Marquis, RICG, http://responsiveimages.org
-Editor: Scott Jehl, Filament Group, http://filamentgroup.com
 Editor: Tommy Hodgins, WICG, https://wicg.io
-Abstract: This document captures the use cases and requirements for standardizing a solution for element queries. The <a href="#usecases">use cases</a> and <a href="#dfn-requirements">requirements</a> were gathered with consultation with the <a href="http://w3c.org/">HTML Working Group</a> and <a href="http://whatwg.org">WHATWG</a> participants, <a href="http://www.w3.org/community/respimg/"><abbr title="Responsive Images Community Group">RICG</abbr></a> group members, <abbr title="Web Incubator Community Group">WICG</abbr></a> group members, and the general public.
-Abstract: Found a bug or typo? Please file an <a href="https://github.com/WICG/cq-usecases/issues">issue on GitHub</a>!
+Abstract: This document captures the use cases and requirements for standardizing a solution for element queries. The <a href="#usecases">use cases</a> and <a href="#dfn-requirements">requirements</a> are currently being gathered with consultation with <abbr title="Web Incubator Community Group">WICG</abbr></a> group members, and the general public.
 !Version History: <a href="https://github.com/WICG/cq-usecases/gh-pages">Commit History</a>
-!Participate: <a href="irc://irc.w3.org:6665/#respimg">IRC: #respimg on W3C's IRC</a>
+!Participate: <a href="irc://irc.w3.org:6665/#wicg">IRC: #wicg on W3C's IRC</a>
 !Participate: <a href="https://github.com/WICG/cq-usecases">GitHub</a>
 </pre>
 
