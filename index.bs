@@ -1,4 +1,5 @@
 <h1>Use Cases and Requirements for Element Queries</h1>
+
 <pre class='metadata'>
 Group: wicg
 Status: ED
@@ -6,7 +7,7 @@ ED: https://github.com/WICG/cq-usecases
 Shortname: cq-usecases
 Level: 1
 Editor: Tommy Hodgins, WICG, https://wicg.io
-Abstract: This document captures the use cases and requirements for standardizing a solution for element queries. The <a href="#usecases">use cases</a> and <a href="#dfn-requirements">requirements</a> are currently being gathered with consultation with <abbr title="Web Incubator Community Group">WICG</abbr></a> group members, and the general public.
+Abstract: This document captures the use cases and requirements for standardizing a solution for element queries. The <a href="#usecases">use cases</a> and <a href="#dfn-requirements">requirements</a> are currently being gathered with consultation with <abbr title="Web Platform Incubator Community Group">WICG</abbr></a> group members, and the general public.
 !Version History: <a href="https://github.com/WICG/cq-usecases/gh-pages">Commit History</a>
 !Participate: <a href="irc://irc.w3.org:6665/#wicg">IRC: #wicg on W3C's IRC</a>
 !Participate: <a href="https://github.com/WICG/cq-usecases">GitHub</a>
@@ -22,7 +23,7 @@ img { max-width: 100%; }
 <div boilerplate="status">
 This is an unofficial draft. It is provided for discussion only and may change at any moment. Its publication here does not imply endorsement of its contents by W3C. Don’t cite this document other than as work in progress.
 
-If you wish to make comments regarding this document, please send them to <a href="mailto:public-respimg@w3.org">public-respimg@w3.org</a> (<a href="mailto:public-respimg-request@w3.org?subject=subscribe">subscribe</a>, <a href="http://lists.w3.org/Archives/Public/public-respimg/">archives</a>). All comments are welcome.
+If you wish to make comments regarding this document, please send them to <a href="mailto:public-wicg@w3.org">public-wicg@w3.org</a> (<a href="mailto:public-wicg-request@w3.org?subject=subscribe">subscribe</a>, <a href="https://lists.w3.org/Archives/Public/public-wicg/">archives</a>). All comments are welcome.
 </div>
 
 <h2 id="intro">Introduction</h2>
@@ -35,10 +36,9 @@ This document presents some of the use cases that “element queries” would so
 
 In formulating the requirements, this document tries to be neutral—it is not predicated on any solution. The document only tries to describe the use cases and what the WICG understands, from practice, would be needed to address the use cases in the form of requirements. The WICG expect that a technical specification can be created to formally address each or all of the requirements (i.e., the <dfn id="dfn-solution">solution</dfn>).
 
-
 <h2 id="usecases">Use Cases</h2>
 
-This document reflects the efforts of members from the <a href="http://www.w3.org/community/respimg/">Responsive Issues Community Group</a> (RICG) and <a href="https://wicg.io">Web Incubator Community Group</a> (WICG), and with ongoing feedback from the designer/developer community via blog posts, informal polls, and other social media sources. The WICG's goal for this document is to make sure that developer requirements for element queries have been captured for the purpose of standardization.
+This document reflects the efforts of members from the <a href="http://www.w3.org/community/respimg/">Responsive Issues Community Group</a> (RICG) and <a href="https://wicg.io">Web Platform Incubator Community Group</a> (WICG), and with ongoing feedback from the designer/developer community via blog posts, informal polls, and other social media sources. The WICG's goal for this document is to make sure that developer requirements for element queries have been captured for the purpose of standardization.
 
 The following <dfn id="dfn-usecases">use cases</dfn> represent common usage scenarios:
 
@@ -83,7 +83,6 @@ The use cases give rise to the following <dfn id="dfn-requirements">requirements
 
 <ol>
 	<li>
-	</li>
 </ol>
 
 <h2 id="issues">Open issues</h2>
@@ -98,4 +97,4 @@ You can also see all <a href="https://github.com/WICG/cq-usecases/issues?q=is%3A
 
 <h2 id="acks">Acknowledgements</h2>
 
-A <a href="http://www.w3.org/community/respimg/participants">complete list of participants</a> of the Responsive Images Community Group is available at the W3C Community Group Website.
+A <a href="https://www.w3.org/community/wicg/participants">complete list of participants</a> of the Web Platform Incubator Community Group is available at the W3C Community Group Website.
