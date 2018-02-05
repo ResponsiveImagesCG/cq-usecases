@@ -7,6 +7,8 @@ ED: https://github.com/WICG/cq-usecases
 Shortname: cq-usecases
 Level: 1
 Editor: Tommy Hodgins, WICG, https://wicg.io
+Former Editor: Mat Marquis, RICG, http://responsiveimages.org
+Former Editor: Scott Jehl, Filament Group, http://filamentgroup.com
 Abstract: This document captures the use cases and requirements for standardizing a solution for element queries. The <a href="#usecases">use cases</a> and <a href="#dfn-requirements">requirements</a> are currently being gathered with consultation with <abbr title="Web Platform Incubator Community Group">WICG</abbr></a> group members, and the general public.
 !Version History: <a href="https://github.com/WICG/cq-usecases/gh-pages">Commit History</a>
 !Participate: <a href="irc://irc.w3.org:6665/#wicg">IRC: #wicg on W3C's IRC</a>
