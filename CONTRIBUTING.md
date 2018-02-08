@@ -9,7 +9,7 @@ Instructions for joining W3C community groups are
 [here](https://www.w3.org/community/about/faq/#how-do-i-join-a-group);
 TL;DR, you need to [create a W3C account](https://www.w3.org/accounts/request)
 and then click the “join or leave this group” button on the
-[WICG’s page](https://www.w3.org/accounts/request).
+[WICG’s page](https://www.w3.org/community/wicg/).
 
 If you are not the sole contributor to a contribution (pull request), please
 identify all contributors in the pull request comment.
