@@ -77,6 +77,27 @@ The module in this new sidebar context will never need to reflow to the wider la
 	<figcaption>A stylesheet heatmap showing added redundancy and rewriting of existing styles required to accommodate the layout variation in <a href="#fig-4">fig. 4</a> </figcaption>
 </figure>
 
+<h2 id="limitations-of-current-techniques">Limitations of current techniques</h2>
+
+There is currently no native CSS mechanism available to developers that achieves the primary function of container queries, which is to <em>employ the full capabilities of CSS to a specific element tree based on the state and properties of their container</em>. Therefore developers must look to workarounds to achieve their goals. These workarounds and their limitations are outlined here:
+
+The use of <strong>Media Queries</strong> can only affect CSS changes based on the state and properties of the viewport. The viewport is not a good indicator of the state and properties of a particular container within the viewport.
+
+The use of <strong>CSS layout methods</strong> such as <strong>Flexbox</strong> and <strong>Grid</strong>, alongside <strong>CSS-based workarounds</strong> (such as the <a href="https://medium.freecodecamp.org/the-fab-four-technique-to-create-responsive-emails-without-media-queries-baf11fdfa848">Fab Four technique</a>) cannot employ the full capabilities of CSS on an element tree.
+
+The use of <strong>iframes</strong> produces the closest effect to what Container Queries is intended to achieve, but their use has two significant drawbacks:
+<ol>
+<li>
+Without the use of JavaScript, iframes require that the contents of the iframe are stored in a <em>separate HTML document</em> rather than being part of the current document. This necessitates a new document composition paradigm that’s very different from the methods currently employed by developers.
+</li>
+<li>
+The contents of an iframe do not natively affect the dimensions of the iframe itself. The contents of a container that is the subject of a Container Query are still expected to be able to affect the layout of its parents in the <em>opposite</em> dimension of the query. For example, in the case of a Container Query that is based on a containers <em>width</em>, it is still expected that the container’s contents affect the <em>height</em> of a container, subject to any overflow rules.
+</li>
+</ol>
+
+<strong>JavaScript-based solutions</strong> (for example <a href="https://elementqueries.com/">EQCSS</a>) should not be considered an adequate replacement for a native CSS solution for all the same reasons any other layout- or appearance-based declarations are the domain of CSS, not JavaScript, and the usual caveats of JavaScript availability and failure still apply. JavaScript solutions also create additional network traffic and require additional parsing.
+
+
 <h2 id="requirements">Requirements</h2>
 
 The use cases give rise to the following <dfn id="dfn-requirements">requirements</dfn>:
