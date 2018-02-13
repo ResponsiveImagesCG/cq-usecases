@@ -95,7 +95,7 @@ The contents of an iframe do not natively affect the dimensions of the iframe it
 </li>
 </ol>
 
-<strong>JavaScript-based solutions</strong> (for example <a href="https://elementqueries.com/">EQCSS</a>) should not be considered an adequate replacement for a native CSS solution for all the same reasons any other layout- or appearance-based declarations are the domain of CSS, not JavaScript, and the usual caveats of JavaScript availability and failure still apply. JavaScript solutions also create additional network traffic and require additional parsing.
+<strong>JavaScript-based solutions</strong> (for example <a href="https://elementqueries.com/">EQCSS</a>) should not be considered an adequate replacement for a native CSS solution for all the same reasons any other layout- or appearance-based declarations are the domain of CSS, not JavaScript, and the usual caveats of JavaScript availability and failure still apply. JavaScript solutions also create additional network traffic, require additional parsing and perform an additional reflow after every layout that affects the matching state of a container query.
 
 
 <h2 id="requirements">Requirements</h2>
