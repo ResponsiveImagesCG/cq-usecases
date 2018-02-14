@@ -85,7 +85,7 @@ The use of <strong>Media Queries</strong> can only affect CSS changes based on t
 
 The use of <strong>CSS layout methods</strong> such as <strong>Flexbox</strong> and <strong>Grid</strong>, alongside <strong>CSS-based workarounds</strong> (such as the <a href="https://medium.freecodecamp.org/the-fab-four-technique-to-create-responsive-emails-without-media-queries-baf11fdfa848">Fab Four technique</a>) cannot employ the full capabilities of CSS on an element tree.
 
-The use of <strong>iframes</strong> produces the closest effect to what Container Queries is intended to achieve, but their use has two significant drawbacks:
+The use of <strong>iframes</strong> produces the closest effect to what Container Queries is intended to achieve, but their use has three significant drawbacks:
 <ol>
 <li>
 Without the use of JavaScript, some browsers require that the contents of the iframe are stored in a <em>separate HTML document</em> rather than being part of the current document. This necessitates a new document composition paradigm that’s very different from the methods currently employed by developers.
