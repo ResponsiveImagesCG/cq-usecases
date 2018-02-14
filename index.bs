@@ -93,6 +93,9 @@ Without the use of JavaScript, some browsers require that the contents of the if
 <li>
 The contents of an iframe do not natively affect the dimensions of the iframe itself. The contents of a container that is the subject of a Container Query are still expected to be able to affect the layout of its parents in the <em>opposite</em> dimension of the query. For example, in the case of a Container Query that is based on a containers <em>width</em>, it is still expected that the container’s contents affect the <em>height</em> of a container, subject to any overflow rules.
 </li>
+<li>
+The contents of an iframe do not inherit any styles from their parent document, forcing the styles used by the 'module' to be redeclared.
+</li>
 </ol>
 
 <strong>JavaScript-based solutions</strong> (for example <a href="https://elementqueries.com/">EQCSS</a>) should not be considered an adequate replacement for a native CSS solution for all the same reasons any other layout- or appearance-based declarations are the domain of CSS, not JavaScript, and the usual caveats of JavaScript availability and failure still apply. JavaScript solutions also create additional network traffic, require additional parsing and perform an additional reflow after every layout that affects the matching state of a container query.
