@@ -92,7 +92,8 @@ There is currently no native CSS mechanism available to developers that achieves
         CSS layout methods
     </dt>
     <dd>
-        The use of CSS layout methods such as <strong>Flexbox</strong> and <strong>Grid</strong>, alongside <strong>CSS-based workarounds</strong> (such as the <a href="https://medium.freecodecamp.org/the-fab-four-technique-to-create-responsive-emails-without-media-queries-baf11fdfa848">Fab Four technique</a>) cannot employ the full capabilities of CSS on an element tree.
+        CSS layout methods such as <strong>Flexbox</strong> and <strong>Grid</strong>, alongside <strong>CSS-based workarounds</strong> (such as the <a href="https://medium.freecodecamp.org/the-fab-four-technique-to-create-responsive-emails-without-media-queries-baf11fdfa848">Fab Four technique</a> which uses a combination of <code>width</code>, <code>calc</code>, <code>min-width</code> adn <code>max-width</code> to affect binary changes to an elements width based on the width of it's parent when compared to a static value, or 'breakpoint') can only deliver a small fraction of the functionality Container Queries are intended to offer.
+        These methods cannot employ the full capabilities of CSS on an element tree. For example, they cannot affect a child elements' <code>display</code> property in order to affect an new layout based on the width of a container.
     </dd>
     <dt>
         iframes
