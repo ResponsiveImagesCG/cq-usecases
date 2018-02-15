@@ -96,20 +96,20 @@ There is currently no native CSS mechanism available to developers that achieves
         These methods cannot employ the full capabilities of CSS on an element tree. For example, they cannot affect a child elements' <code>display</code> property in order to affect an new layout based on the width of a container.
     </dd>
     <dt>
-        iframes
+        <code>iframe</code>s
     </dt>
     <dd>
-        The use of <code>iframes</code> produces the closest effect to what Container Queries is intended to achieve, but their use has some significant drawbacks:
+        The use of <code>iframe</code>s produces the closest effect to what Container Queries is intended to achieve, but their use has some significant drawbacks:
         
         <ol>
             <li>
-                Without the use of JavaScript, some browsers require that the contents of the iframe are stored in a <em>separate HTML document</em> rather than being part of the current document. This necessitates a new document composition paradigm that’s very different from the methods currently employed by developers.
+                Without the use of JavaScript, some browsers require that the contents of the <code>iframe</code> are stored in a <em>separate HTML document</em> rather than being part of the current document. This necessitates a new document composition paradigm that’s very different from the methods currently employed by developers.
             </li>
             <li>
-                In the majority of browsers, the contents of an iframe do not natively affect the dimensions of the iframe itself. The only known exception to this at the time of writing is iOS Safari. The contents of a container that is the subject of a Container Query are still expected to be able to affect the layout of its parents in the <em>opposite</em> dimension of the query. For example, in the case of a Container Query that is based on a containers <em>width</em>, it is still expected that the container’s contents affect the <em>height</em> of a container, subject to any overflow rules.
+                In the majority of browsers, the contents of an <code>iframe</code> do not natively affect the dimensions of the <code>iframe</code> itself. The only known exception to this at the time of writing is iOS Safari. The contents of a container that is the subject of a Container Query are still expected to be able to affect the layout of its parents in the <em>opposite</em> dimension of the query. For example, in the case of a Container Query that is based on a containers <em>width</em>, it is still expected that the container’s contents affect the <em>height</em> of a container, subject to any overflow rules.
             </li>
             <li>
-                The contents of an iframe do not inherit any styles from their parent document, forcing the styles used by the 'module' to be redeclared.
+                The contents of an <code>iframe</code> do not inherit any styles from their parent document, forcing the styles used by the 'module' to be redeclared.
             </li>
         </ol>
     </dd>
