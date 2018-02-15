@@ -120,7 +120,9 @@ There is currently no native CSS mechanism available to developers that achieves
         JavaScript-based solutions
     </dt>
     <dd>
-        JavaScript-based solutions (for example <a href="https://elementqueries.com/">EQCSS</a>) should not be considered an adequate replacement for a native CSS solution for all the same reasons any other layout- or appearance-based declarations are the domain of CSS, not JavaScript, and the usual caveats of JavaScript availability and failure still apply. JavaScript solutions also create additional network traffic, require additional parsing and perform an additional reflow after every layout that affects the matching state of a container query.
+        JavaScript-based solutions (for example <a href="https://elementqueries.com/">EQCSS</a>) should not be considered an adequate replacement for a native CSS solution for all the same reasons any other layout- or appearance-based declarations are the domain of CSS, not JavaScript. The usual caveats of JavaScript availability and failure also apply.
+
+        JavaScript solutions also create additional network traffic, require additional parsing and perform an additional reflow after every layout that affects the matching state of a container query.
     </dd>
 </dl>
 
