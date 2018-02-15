@@ -111,6 +111,9 @@ There is currently no native CSS mechanism available to developers that achieves
             <li>
                 The contents of an <code>iframe</code> do not inherit any styles from their parent document, forcing the styles used by the 'module' to be redeclared.
             </li>
+            <li>
+                <code>iframe</code>s incur additional overheads by creating additional nested browsing contexts, which can degrade performance.
+            </li>
         </ol>
     </dd>
     <dt>
