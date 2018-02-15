@@ -99,7 +99,7 @@ There is currently no native CSS mechanism available to developers that achieves
         iframes
     </dt>
     <dd>
-        The use of <code>iframes</code> produces the closest effect to what Container Queries is intended to achieve, but their use has three significant drawbacks:
+        The use of <code>iframes</code> produces the closest effect to what Container Queries is intended to achieve, but their use has some significant drawbacks:
         
         <ol>
             <li>
